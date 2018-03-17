@@ -1,0 +1,51 @@
+.container{
+  margin:8% auto auto auto;
+}
+body {
+  background-color: #324;
+  color: #c1bcc6;
+  min-width:320px;
+}
+
+.cent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+}
+.cent h1{
+  font-weight:600; 
+}
+.button {
+  border:none;
+  border-radius:3px;
+  outline: none;
+  color:#c1bcc6;
+  background-color:#434343;
+  padding: 10px 20px;
+  margin-top:30px;
+  cursor:pointer;
+  font-size:1.6em;
+}
+.lat,.temp {
+  padding-top:50px;
+  font-size:1.6em;
+  text-align:center;
+}
+
+.long,.weather{
+  margin-top:5px;
+  font-size:1.6em;
+  text-align:center;
+}
+a:hover {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor:pointer
+}
+.tempUnit{
+  color:#45a850;
+  font-size:1.3em;
+  font-weight:600;
+}
